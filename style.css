@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Lightpink: hsl(275, 100%, 97%);
+  --Grayishpurple: hsl(292, 16%, 49%);
+  --Darkpurple: hsl(292, 42%, 14%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", "Sans Sherif";
+}
+body {
+  height: 100vh;
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+  background-size: auto 33vh;
+  background-repeat: repeat-x;
+
+  display: flex;
+}
+.wrapper {
+  /* background: var(--White); */
+
+  /* height: 70vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 30px;
+  width: 65vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  /* align-items: center; */
+  border-radius: 20px;
+}
+.title-div {
+  display: flex;
+  gap: 10px;
+}
+.ques-answer {
+  margin: 20px;
+}
+.ques-box {
+  display: flex;
+  justify-content: space-between;
+}
+.ques-answer p {
+  color: var(--Grayishpurple);
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.quess {
+  color: var(--Darkpurple) !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+}
+.quess:hover {
+  color: rgb(159, 1, 212) !important;
+}
